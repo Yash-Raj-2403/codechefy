@@ -1,14 +1,16 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
-int main(void) {
+int main() {
 	// your code goes here
-	int T;
-	scanf("%d",&T);
-	while(T--)
-	{
-	    int x,y;
-	    scanf("%d %d",&x,&y);
-	    printf("%d\n",x*y/100);
+	int t;
+	cin>>t;
+	int x,y;
+	int n;
+	while(t--){
+	    cin>>x>>y;
+	    n = (x*y)/100 ;
+	    cout<<n<<endl;
 	}
 	return 0;
 }
