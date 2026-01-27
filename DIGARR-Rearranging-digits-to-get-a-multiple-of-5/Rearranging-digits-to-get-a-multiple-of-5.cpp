@@ -16,6 +16,7 @@ int main() {
             if(re ==5 || re == 0)
             {
                 found = true;
+                break;
             }
             num = num/10;
         }
