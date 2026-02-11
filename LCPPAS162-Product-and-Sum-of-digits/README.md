@@ -1,0 +1,19 @@
+<h2><a href="https://www.codechef.com/practice/course/cpp/LPCPAS11/problems/LCPPAS162?tab=solution">Product and Sum of digits</a></h2><h4>Difficulty: </h4><p>Given an integer <strong>N</strong>, Calculate and print the <strong>sum</strong> and <strong>product</strong> of its digit.</p><div class="notranslate">
+<h3>Input Format</h3>
+<ul>
+<li>The first and only line of input will contain a single positive integer <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span> &lt;= 10<sup>9</sup>.</li>
+</ul>
+</div><div class="notranslate">
+<h3>Output Format</h3>
+<ul>
+<li>Print the sum and product of digits of <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal" style="margin-right: 0.10903em;">N</span></span></span></span></span> on single line with a space between them.</li>
+</ul>
+</div><h3 class="notranslate">Sample 1:</h3><div class="_input_output__table_1llav_186 notranslate"><div class="_text_copy__container_1llav_190"><div class="_text_copy_1llav_190 _input_top__box_1llav_203"><span>Input</span><div aria-label="Copy to clipboard" class="undefined css-1eiukdk" style="pointer-events: all;"><span class="_icon__box_10bs7_2 _dark_10bs7_27 undefined"><i class="_copy__icon_10bs7_14"></i></span></div></div><div class="_text_copy_1llav_190 _ouput_top__box_1llav_206"><span>Output</span><div aria-label="Copy to clipboard" class="undefined css-1eiukdk" style="pointer-events: all;"><span class="_icon__box_10bs7_2 _dark_10bs7_27 undefined"><i class="_copy__icon_10bs7_14"></i></span></div></div></div><div class="_values__container_1llav_209"><div class="_values_1llav_209"><pre>22</pre></div><div class="_values_1llav_209"><pre>4 4</pre></div></div></div><h3 class="notranslate">Explanation:</h3><div class="notranslate">
+<p>For number = 22 <br>
+sum of digits = 2 + 2 = 4 <br>
+product of digits = 2 * 2 = 4</p>
+</div><h3 class="notranslate">Sample 2:</h3><div class="_input_output__table_1llav_186 notranslate"><div class="_text_copy__container_1llav_190"><div class="_text_copy_1llav_190 _input_top__box_1llav_203"><span>Input</span><div aria-label="Copy to clipboard" class="undefined css-1eiukdk" style="pointer-events: all;"><span class="_icon__box_10bs7_2 _dark_10bs7_27 undefined"><i class="_copy__icon_10bs7_14"></i></span></div></div><div class="_text_copy_1llav_190 _ouput_top__box_1llav_206"><span>Output</span><div aria-label="Copy to clipboard" class="undefined css-1eiukdk" style="pointer-events: all;"><span class="_icon__box_10bs7_2 _dark_10bs7_27 undefined"><i class="_copy__icon_10bs7_14"></i></span></div></div></div><div class="_values__container_1llav_209"><div class="_values_1llav_209"><pre>222</pre></div><div class="_values_1llav_209"><pre>6 8</pre></div></div></div><h3 class="notranslate">Explanation:</h3><div class="notranslate">
+<p>For number = 222 <br>
+sum of digits = 2 + 2 + 2 = 6 <br>
+product of digits = 2 * 2 * 2 = 8</p>
+</div><div></div>
