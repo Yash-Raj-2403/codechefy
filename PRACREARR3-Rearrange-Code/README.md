@@ -1,0 +1,1 @@
+<h2><a href="https://www.codechef.com/practice/course/cpp/PCPP05/problems/PRACREARR3">Rearrange Code</a></h2><h4>Difficulty: </h4><p>Rearrange the code so that the code prints the numbers from 1 to 10.</p><div></div>
