@@ -1,20 +1,18 @@
-// Solution
+#include <iostream>
+using namespace std;
 
-function checkWaterConsumption(tests){
-  let t = parseInt(tests[0]);
-  for(let i = 1; i <= t; i++){
-    const x = parseInt(tests[i].trim());
-    if(x >= 2000){
-        console.log("YES");
-    } else{
-        console.log("NO");
-    }
-  }
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int w;
+	    cin>>w;
+	    if(w>=2000){
+	        cout<<"YES\n";
+	    } else{
+	        cout<<"NO\n";
+	    }
+	}
+	return 0;
 }
-
-// Input related code. Please do not change. 
-process.stdin.setEncoding('utf8');
-process.stdin.on('data', function(input) {
-  const tests = input.split('\n');
-  checkWaterConsumption(tests);
-});
