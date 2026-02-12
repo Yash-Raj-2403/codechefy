@@ -1,0 +1,2 @@
+        cout << maxa  << " " << mina << endl;
+
