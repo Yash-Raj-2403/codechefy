@@ -1,0 +1,1 @@
+<h2><a href="https://www.codechef.com/practice/course/java/PJA01/problems/JPRACREARR1">Rearrange Code</a></h2><h4>Difficulty: </h4><p>You want to input two integers, and output their sum.</p><p>Rearrange the code given, so that it does the above task.</p><div></div>
