@@ -1,18 +1,20 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-	// your code goes here
-	int t;
-	cin>>t;
-	while(t--){
-	    int w;
-	    cin>>w;
-	    if(w>=2000){
-	        cout<<"YES\n";
-	    } else{
-	        cout<<"NO\n";
-	    }
-	}
-	return 0;
+// Solution
+#include<stdio.h>
+int main()
+{
+    int t;
+    scanf("%d",&t);
+    while(t--)
+    {
+        int a;
+        scanf("%d",&a);
+        if(a>=2000)
+        {
+            printf("YES\n");
+        }
+        else
+        {
+            printf("NO\n");
+        }
+    }
 }
