@@ -1,20 +1,15 @@
-#include <iostream>
-using namespace std;
-
+#include<stdio.h>
 int main() {
     int t;
-    cin>>t;
+    scanf("%d",&t);
     while(t--){
         int x,y;
-        cin>>x>>y;
-        // your code goes here
-        if(x+y>6)
-        {
-            cout<<"YES"<<endl;
+        scanf("%d%d",&x,&y);
+        if(x+y>6){
+            printf("YES\n");
         }
-        else
-        {
-            cout<<"NO"<<endl;
+        else{
+            printf("NO\n");
         }
     }
     return 0;
