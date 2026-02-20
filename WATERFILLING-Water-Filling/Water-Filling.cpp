@@ -1,4 +1,8 @@
 #include<bits/stdc++.h>
+#define ll long long 
+#define endl "\n"
+// constant
+const int mod = 1e9+7;
 using namespace std;
  
 int main(){
