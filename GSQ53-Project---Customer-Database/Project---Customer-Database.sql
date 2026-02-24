@@ -2,7 +2,7 @@
 
 -- Create a table 'customer'
 create table customer(
-Id INT PRIMARY KEY,
+Id INT,
 Name Text,
 Age INT,
 address Text
@@ -21,3 +21,4 @@ VALUES(1, 'John Smith', 25,  '123 Main St'),
 (5, 'David Lee', 35,  '555 Park Ave');
 
 -- Output the entire table
+select * from customer;
