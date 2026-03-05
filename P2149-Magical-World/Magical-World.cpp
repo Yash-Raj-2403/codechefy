@@ -13,7 +13,7 @@ int main() {
         {
             cout << 0 << endl;
         }
-        else if(a>c && b>c)
+        else if(a>c*c && b>c*c)
         {
             cout << 2 << endl;
         }
