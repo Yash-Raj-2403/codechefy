@@ -13,13 +13,13 @@ int main() {
         {
             cout << 0 << endl;
         }
-        else if((a == c && b!=c) || (a!=c && b==c))
+        else if(a>c && b>c)
         {
-            cout << 1 << endl;
+            cout << 2 << endl;
         }
         else
         {
-            cout << 2 << endl;
+            cout << 1 << endl;
         }
     }
 }
