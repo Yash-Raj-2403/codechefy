@@ -1,165 +1,28 @@
-<h2><a href="https://www.codechef.com/problems/BLNDOR">Ballon d Or
-
-Leo has already won the Ballon d'Or 
-8
-8 times, so he is really impressed with it (is he?).
-
-Leo has an array 
-𝐴
-A containing 
-𝑁
-N integers. Each element of this array is either 
-1
-1 or 
-2
-2.
-He wants to figure out if the product of all the elements of the array can be written as an 
-8
-8-th power of some integer, i.e, 
-𝑘
-8
-k
-8
- for some integer 
-𝑘
-k.
-
-Print Yes if it can and No if it can't.
-
-Input Format
-The first line of input will contain a single integer 
-𝑇
-T, denoting the number of test cases.
-Each test case consists of two lines of input.
-The first line of each test case contains a single integer 
-𝑁
-N — the number of integers in Leo's array.
-The second line contains 
-𝑁
-N space-separated integers 
-𝐴
-1
-,
-𝐴
-2
-,
-…
-,
-𝐴
-𝑁
-A
-1
-	​
-
-,A
-2
-	​
-
-,…,A
-N
-	​
-
-, denoting the elements of array 
-𝐴
-A.
-Output Format
-
-For each test case, output on a new line "YES" if a valid 
-𝑘
-k exists, and "No" otherwise (without quotes).
-
-Each letter of the output may be printed in either uppercase or lowercase, i.e, the strings no, No, nO, and NO will all be treated as equivalent.
-
-Constraints
-1
-≤
-𝑇
-≤
-10
-5
-1≤T≤10
-5
-1
-≤
-𝑁
-≤
-2
-⋅
-10
-5
-1≤N≤2⋅10
-5
-1
-≤
-𝐴
-𝑖
-≤
-2
-1≤A
-i
-	​
-
-≤2
-The sum of 
-𝑁
-N over all test cases won't exceed 
-2
-⋅
-10
-5
-2⋅10
-5
-.
-Sample 1:
-Input
-Output
-2
-1
-2
-9
-2 2 2 2 1 2 2 2 2
-NO
-YES
-Explanation:
-
-Test case 
-1
-1: The product of the array is 
-2
-2, which can't be written as 
-𝑘
-8
-k
-8
- for any integer 
-𝑘
-k. So, the answer is No.
-
-Test case 
-2
-2: The product of the array is 
-2
-×
-2
-×
-2
-×
-2
-×
-1
-×
-2
-×
-2
-×
-2
-×
-2
-=
-256
-2×2×2×2×1×2×2×2×2=256, which equals 
-2
-8
-2
-8
-. So, the answer is Yes.</a></h2><h4>Difficulty: </h4>
+int main() {
+    // your code goes here
+    int t;
+    cin >> t;
+    while(t--)
+    {
+        int n;
+        cin >> n;
+        vector<int> a(n);
+        int c=0;
+        for(int i=0;i<n;i++)
+        {
+            cin >> a[i];
+            if(a[i] == 2)
+            {
+                c++;
+            }
+        }
+        if(c%8==0)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
+    }
+}
