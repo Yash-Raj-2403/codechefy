@@ -1,67 +1,16 @@
-<h2><a href="https://www.codechef.com/START230D/problems/EQBUY">Equal Buying
+#include <bits/stdc++.h>
+using namespace std;
 
-Chef bought some number of sacks of flour, and some number of sacks of sugar. It is unknown exactly how many of each.
-
-Each sack of flour weighs 
-2
-2 kilograms, and each sack of sugar weighs 
-1
-1 kilogram. It is known that the total weight of Chef's sacks of flours and sugar was 
-𝑁
-N kilograms.
-
-Is it possible that Chef bought an equal number of sacks of flour and sugar? Print 
-Yes
-Yes if it is possible and 
-No
-No otherwise.
-
-Input Format
-The first and only line contains 
-1
-1 integer - 
-𝑁
-N.
-Output Format
-
-Output 
-Yes
-Yes if it was possible for Chef to buy an equal number of sacks of rice and sugar, and 
-No
-No otherwise.
-
-Constraints
-1
-≤
-𝑁
-≤
-10
-1≤N≤10
-Sample 1:
-Input
-Output
-3
-
-Yes
-
-Explanation:
-
-Chef could have bought 
-1
-1 sack of flour and 
-1
-1 sack of sugar for a total weight of 
-3
-3 kilograms.
-
-Sample 2:
-Input
-Output
-Copy to clipboard
-5
-
-No
-
-Explanation:
-
-It is impossible for Chef to buy an equal amount of sacks of flour and sugar.</a></h2><h4>Difficulty: </h4>
+int main() {
+    // your code goes here
+    int a;
+    cin >> a;
+    if(a%3==0)
+    {
+        cout << "YES" << endl;
+    }
+    else
+    {
+        cout << "NO" << endl;
+    }
+}
