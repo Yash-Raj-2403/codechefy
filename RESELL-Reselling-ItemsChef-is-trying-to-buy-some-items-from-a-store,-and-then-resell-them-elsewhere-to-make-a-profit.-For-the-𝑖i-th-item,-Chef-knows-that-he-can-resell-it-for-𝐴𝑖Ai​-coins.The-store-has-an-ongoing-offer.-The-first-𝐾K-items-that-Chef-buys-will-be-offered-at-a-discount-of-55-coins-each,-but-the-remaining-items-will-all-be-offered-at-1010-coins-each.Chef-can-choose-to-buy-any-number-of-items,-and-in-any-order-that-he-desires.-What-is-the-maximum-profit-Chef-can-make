@@ -1,0 +1,140 @@
+<h2><a href="https://www.codechef.com/START230D/problems/RESELL">Reselling Items
+
+Chef is trying to buy some items from a store, and then resell them elsewhere to make a profit. For the 
+𝑖
+i-th item, Chef knows that he can resell it for 
+𝐴
+𝑖
+A
+i
+	​
+
+ coins.
+
+The store has an ongoing offer. The first 
+𝐾
+K items that Chef buys will be offered at a discount of 
+5
+5 coins each, but the remaining items will all be offered at 
+10
+10 coins each.
+
+Chef can choose to buy any number of items, and in any order that he desires. What is the maximum profit Chef can make?
+
+Input Format
+The first line of input will contain a single integer 
+𝑇
+T, denoting the number of test cases.
+Each test case consists of multiple lines of input.
+The first line contains 
+2
+2 integers - 
+𝑁
+N and 
+𝐾
+K.
+The second line contains 
+𝑁
+N integers - 
+𝐴
+1
+,
+𝐴
+2
+,
+…
+,
+𝐴
+𝑁
+A
+1
+	​
+
+,A
+2
+	​
+
+,…,A
+N
+	​
+
+.
+Output Format
+
+For each test case, output on a new line the maximum profit.
+
+Constraints
+1
+≤
+𝑇
+≤
+100
+1≤T≤100
+1
+≤
+𝐾
+≤
+𝑁
+≤
+100
+1≤K≤N≤100
+1
+≤
+𝐴
+𝑖
+≤
+15
+1≤A
+i
+	​
+
+≤15
+Sample 1:
+Input
+Output
+5
+2 1
+15 15
+2 1
+6 10
+2 2
+6 10
+5 3
+10 12 3 6 7
+2 2
+1 1
+
+15
+5
+6
+14
+0
+Explanation:
+
+Test Case 1: Chef bought the first item for cost of 
+5
+5 and resold it for 
+15
+15 coins. Then, he buys the second item for cost of 
+10
+10 and resold it for 
+15
+15. His total profit is 
+15
+−
+5
++
+15
+−
+10
+=
+15
+15−5+15−10=15 coins.
+
+Test Case 2: Chef bought the second item for cost of 
+5
+5 and resold it for 
+10
+10 coins. The total profit is 
+5
+5 coins.</a></h2><h4>Difficulty: </h4>
