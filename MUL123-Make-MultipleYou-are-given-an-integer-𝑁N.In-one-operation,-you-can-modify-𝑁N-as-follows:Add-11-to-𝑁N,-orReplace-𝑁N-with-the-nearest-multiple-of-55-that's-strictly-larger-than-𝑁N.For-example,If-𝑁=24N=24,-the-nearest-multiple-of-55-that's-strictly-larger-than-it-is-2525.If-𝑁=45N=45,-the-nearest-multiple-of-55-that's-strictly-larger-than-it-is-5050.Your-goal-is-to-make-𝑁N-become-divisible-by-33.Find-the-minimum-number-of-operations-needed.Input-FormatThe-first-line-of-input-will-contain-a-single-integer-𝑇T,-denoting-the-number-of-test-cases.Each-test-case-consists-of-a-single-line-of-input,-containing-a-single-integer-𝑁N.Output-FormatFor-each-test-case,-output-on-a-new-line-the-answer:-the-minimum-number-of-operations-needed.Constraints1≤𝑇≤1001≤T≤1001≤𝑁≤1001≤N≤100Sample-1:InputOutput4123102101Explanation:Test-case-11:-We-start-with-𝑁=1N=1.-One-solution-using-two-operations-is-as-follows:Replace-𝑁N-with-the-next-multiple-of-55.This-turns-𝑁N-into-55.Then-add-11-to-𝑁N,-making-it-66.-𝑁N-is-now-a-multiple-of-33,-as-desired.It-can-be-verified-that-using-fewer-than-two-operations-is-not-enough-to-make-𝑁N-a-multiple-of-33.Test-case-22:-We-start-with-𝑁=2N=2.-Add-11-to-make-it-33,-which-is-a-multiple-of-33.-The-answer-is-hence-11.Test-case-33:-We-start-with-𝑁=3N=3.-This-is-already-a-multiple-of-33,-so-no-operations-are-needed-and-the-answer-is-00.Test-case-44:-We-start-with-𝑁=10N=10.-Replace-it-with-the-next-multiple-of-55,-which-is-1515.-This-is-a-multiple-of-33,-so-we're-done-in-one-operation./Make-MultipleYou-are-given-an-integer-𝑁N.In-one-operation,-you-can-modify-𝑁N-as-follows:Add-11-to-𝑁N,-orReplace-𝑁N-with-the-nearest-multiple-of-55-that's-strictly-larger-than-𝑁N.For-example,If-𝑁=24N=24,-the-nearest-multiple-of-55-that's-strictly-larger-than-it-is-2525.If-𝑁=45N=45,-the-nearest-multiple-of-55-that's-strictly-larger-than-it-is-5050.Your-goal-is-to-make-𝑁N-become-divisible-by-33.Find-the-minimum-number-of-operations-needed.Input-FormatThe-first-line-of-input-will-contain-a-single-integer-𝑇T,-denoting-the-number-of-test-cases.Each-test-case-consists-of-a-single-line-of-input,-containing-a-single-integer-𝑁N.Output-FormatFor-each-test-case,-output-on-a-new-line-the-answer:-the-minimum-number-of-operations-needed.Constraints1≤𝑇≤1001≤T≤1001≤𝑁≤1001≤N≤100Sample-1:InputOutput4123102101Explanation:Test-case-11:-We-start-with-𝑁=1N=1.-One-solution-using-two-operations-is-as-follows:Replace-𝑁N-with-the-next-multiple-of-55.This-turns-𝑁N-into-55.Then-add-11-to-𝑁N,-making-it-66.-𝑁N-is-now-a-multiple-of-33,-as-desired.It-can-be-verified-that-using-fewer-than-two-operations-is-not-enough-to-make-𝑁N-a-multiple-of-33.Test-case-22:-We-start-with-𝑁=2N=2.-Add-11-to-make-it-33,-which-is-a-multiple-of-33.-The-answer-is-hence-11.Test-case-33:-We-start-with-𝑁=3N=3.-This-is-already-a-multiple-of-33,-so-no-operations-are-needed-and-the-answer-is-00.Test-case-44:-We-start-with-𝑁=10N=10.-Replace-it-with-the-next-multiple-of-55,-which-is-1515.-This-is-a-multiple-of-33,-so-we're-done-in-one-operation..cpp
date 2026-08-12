@@ -1,7 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
     // your code goes here
     int t;
     cin >> t;
@@ -13,13 +9,22 @@ int main() {
         {
             cout << 0 << endl;
         }
-        else if(a%3==1)
+        else if(a%3==2)
         {
-            cout << 2 << endl;
+            cout << 1 << endl;
         }
         else
         {
-            cout << 1 << endl;
+            int fin = a/5;
+            int ans = (fin+1)*5;
+            if(ans %3==0)
+            {
+                cout << 1 << endl;
+            }
+            else
+            {
+                cout << 2 << endl;
+            }
         }
     }
 }
